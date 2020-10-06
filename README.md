@@ -20,8 +20,8 @@ The goal is to record the number of occupants in a room and assess if it has rea
 ### Highlights
 I have learned to make the response system wait for record multiple signals counts and attempt to input it back to the buzzer. I believe I will have to learn to incorporate order of signals for the validation.
 
-!(https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/WhatsApp%20Image%202020-10-06%20at%2012.11.40%20PM.jpeg)
-!(https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/WhatsApp%20Image%202020-10-06%20at%2012.12.55%20PM.jpeg)
+![](https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/WhatsApp%20Image%202020-10-06%20at%2012.11.40%20PM.jpeg)
+![](https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/WhatsApp%20Image%202020-10-06%20at%2012.12.55%20PM.jpeg)
 
 ### Problems Encountered
 1) Attempted to add a sound detection sensor, but the signals were not enough to validate occupancy or a person leaving the room. The ambient noice did not change much. This is could also be due to inability to test it in a real public space.
@@ -35,7 +35,8 @@ I have learned to make the response system wait for record multiple signals coun
 4) I am still waiting for my break beam sensor to be delivered. I will have to change the way the project works once the sensor arrives.
 
 ### Future Plan
-I am planning on adding a validation sensing system (potentially a break beam sensor) to confirm entry or exit from a room. The break beam will be placed at the door and the Motion sensor will be placed inside the room, right after the entrance. Thus, if the PIR signal is followed by the Break beam signal, the person has left the room, and if the Break beam sensor signal is followed by the motion sensor signal a person has entered the room. This validation method would prevent false positives.
+1) Troubleshoot the existing code to allow buzzer to sound after the limit is reached
+2) Add a validation sensing system (potentially a break beam sensor) to confirm entry or exit from a room. The break beam will be placed at the door and the Motion sensor will be placed inside the room, right after the entrance. Thus, if the PIR signal is followed by the Break beam signal, the person has left the room, and if the Break beam sensor signal is followed by the motion sensor signal a person has entered the room. This validation method would prevent false positives.
 
 ## Methodology
 
