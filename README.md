@@ -22,6 +22,7 @@ I have learned to make the response system wait for record multiple signals coun
 
 ![Code](https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/WhatsApp%20Image%202020-10-06%20at%2012.11.40%20PM.jpeg)
 ![Setup](https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/WhatsApp%20Image%202020-10-06%20at%2012.12.55%20PM.jpeg){:height="20%" width="50%"}
+<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/WhatsApp%20Image%202020-10-06%20at%2012.12.55%20PM.jpeg" width="100" height="100">
 
 ### Problems Encountered
 1) Attempted to add a sound detection sensor, but the signals were not enough to validate occupancy or a person leaving the room. The ambient noice did not change much. This is could also be due to inability to test it in a real public space.
