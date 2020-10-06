@@ -18,7 +18,7 @@ The goal is to record the number of occupants in a room and assess if it has rea
 ## Current Progress
 
 ### Highlights
-I have learned to make the response system wait for multiple signals before sounding the buzzer. I believe I will have to learn to incorporate order of signals for the validation.
+I have learned to make the response system wait for record multiple signals counts and attempt to input it back to the buzzer. I believe I will have to learn to incorporate order of signals for the validation.
 
 ### Problems Encountered
 1) Attempted to add a sound detection sensor, but the signals were not enough to validate occupancy or a person leaving the room. The ambient noice did not change much. This is could also be due to inability to test it in a real public space.
@@ -26,6 +26,8 @@ I have learned to make the response system wait for multiple signals before soun
 2) Due to the lack of experience with coding foe sensing, figuring out how to store ertain values before sounding alarm was difficult
  
 3) PIR could be used to detect both object that are approaching and leaving. Will have to incorporate a secondary sensor to find the direction of movement.
+
+4) PIR sensor's sensitivity needs to be adjusted. Sometimes it is too sensitive and at other times it doesnt detect motion at all. Further, there is a time lag in the signal notification, hence it is difficult to give accurate counts.
 
 4) I am still waiting for my break beam sensor to be delivered. I will have to change the way the project works once the sensor arrives.
 
