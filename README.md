@@ -13,7 +13,7 @@ With social distancing becoming a highly important
 
 ## Goals
 
-The ultimate goal is to record the number of people studying in the library, train a model for predicting number of occupants and develop GUI for information sharing. When students install and run our GUI, they can know not only whether there are seats available but also how many seats are available.
+The goal is to record the number of occupants in a room and assess if it has 
 
 ## Current Progress
 
@@ -29,7 +29,7 @@ Describe what you plan to do in the next two weeks
 
 ### Phenomena of Interest
 
-#### Indoor carbon dioxide accumulation
+#### Entry detection
 
 As human activity consumes energy and emit carbon dioxide, when the emission rate is greater than room ventilation rate, carbon dioxide will accumulate in indoor environment. Assume the ventilation is generally steady and might fluctuate within small range, the accumulation rate, also carbon dioxide change rate, will be affected by number of occupants. Moreover, since emitted carbon dioxide volume is proportional to CO2 source – occupants in the room, CO2 concentration at a balanced level should also suggest number of occupants.
 
@@ -37,9 +37,6 @@ As human activity consumes energy and emit carbon dioxide, when the emission rat
 
 Human consumes energy and generate heat, with radiating waves came at around 12 microns.[1] Since it falls within the range of 0.75 to 1000 micron of infrared radiation, human body could be seen as an infrared radiation source. Therefore, when someone moves around in a space, there should also be an infrared radiation moving in the space. Such phenomenon lays the ground for PIR motion sensor design. In our case, when someone enters or exits the room, since it firstly went within sensor detection range and then left this range, motion of this infrared radiation source will be detected and recorded as number of occupants change. Connection between this phenomenon and sensor will be illustrated in “Sensors Used” section.
 
-#### Static and Dynamic behavior
-
-For human radiation detection, since human body temperature is always much above indoor environment temperature, even if body temperature changes with time, the fluctuations will not affect motion detection results, and therefore this phenomenon will be regarded as static. However, the dynamic characteristic of CO2 accumulation has been crucial in this project. It is just because of the change of accumulated CO2 level with time and differences of accumulation rate with various occupancy status that leads to the measuring the correlation between CO2 concentration and occupancy number.
 
 #### Signal characteristics
 
@@ -99,7 +96,7 @@ The PIR sensor was able to detect any objects passing by with temperature differ
 There have been some online resources showing the necessity for eliminating DC voltage output as noise and amplify the AC output. [4] However, after calibration and test, we decided such conditioning could be omitted for the PIR sensor used. Also, we applied moving average with window length of 3 to prioritize the consecutive "True" binary discrete signals as a way balancing eleminating false positive errors and unintentionally filtering out true positive signals.
 
 ## Experiments and Results
-Describe the experiments you did and present the results; Use tables and plots if possible
+At this point, the PIR counts the number of instances and creates a buzzer 
 ## Discussion
 Discuss the insights from the project
 
