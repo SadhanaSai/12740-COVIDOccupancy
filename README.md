@@ -5,11 +5,11 @@ Sadhana Sainarayanan
 
 ## Introduction
 
-This project is a pilot study of school studying space occupancy management system. It aims to detect the occupancy condition is a confined space. There are 2 parallel sensing systems were applied in this project. First, CO2 sensor is used to detect the indoor CO2 concentration. Because CO2 sensor always affected by time delay, PIR sensor and manual peopel counting were applied as a validation method. The second sensing system (PIR) detects the instance occupancy movement.
+This project aims to detect the occupancy a confined/ closed area to ensure that the maximum occupany of the space is not exceeded to ensure social distancing measures. There are parallel sensing systems to assess the occupancy. First, PIR sensor was used to assess movement near the door (Occupancy instance). Further, a break beam sensor is planned to be added to the sensing system. Once the maximum occupancy is reached a buzzer will be sounded when a person enters in order to avoid exeeding the allowed occupancy limit.
 
 ## Motivation
 
-School library and department lounges are always packed with students. However, the seats are limited. Everyone has the experience that spend a lot of time in finding seats but still need to study at home. At that time, it would be great to have someone or something to tell us where we can find an available seat. This project is aiming to solve this problem using sensor to detect the occupancy condition and return the result to the user.
+With social distancing becoming a highly important 
 
 ## Goals
 
