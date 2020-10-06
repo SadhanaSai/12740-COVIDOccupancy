@@ -47,7 +47,6 @@ I am planning on adding a validation sensing system (potentially a break beam se
 
 #### Physical principles
 
-The PIR motion sensor we selected is HC-SR501 infrared sensor which allows us to sense motion. Human bodies generate infrared heat which could be picked up by the PIR motion sensor. This sensor is made of a pyroelectric sensor which detects the level of infrared radiation, and a multifaceted lens (a Fresnel lens) which can enlarge the useful detection angle by improving the visibility of the smaller cones and decreasing the visibility of the intervening areas. 
 
 #### Static and dynamic behavior
 
@@ -90,13 +89,21 @@ This sensor could be used for outdoor lights, lift lobby and common staircases. 
 #### Sensor characteristics
 
 Sensing Distance: Approx 25cm / 10"
+
 Power Voltage: 3.3 - 5.5VDC
+
 Emitter Current Draw: 10mA @ 3.3V, 20mA @ 5V
+
 Output Current Capability of receiver: 100mA sink
+
 Transmitter/Receiver LED Angle: 10°
+
 Response Time: <2 ms
+
 Dimensions: 20mm x 10mm x 8mm / 0.8" x 0.4" x 0.3"
+
 Cable Length: 234mm / 9.2"
+
 Weight (of each half): ~3g
 
 #### Applications
