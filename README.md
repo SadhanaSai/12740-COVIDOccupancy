@@ -20,7 +20,7 @@ The goal is to record the number of occupants in a room and assess if it has rea
 ### Highlights
 I have learned to make the response system wait for record multiple signals counts and attempt to input it back to the buzzer. I believe I will have to learn to incorporate order of signals for the validation.
 
-![https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/WhatsApp%20Image%202020-10-06%20at%2012.11.40%20PM.jpeg]
+!(https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/WhatsApp%20Image%202020-10-06%20at%2012.11.40%20PM.jpeg)
 
 ### Problems Encountered
 1) Attempted to add a sound detection sensor, but the signals were not enough to validate occupancy or a person leaving the room. The ambient noice did not change much. This is could also be due to inability to test it in a real public space.
