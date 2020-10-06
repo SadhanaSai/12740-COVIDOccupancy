@@ -115,8 +115,8 @@ This sensor could be used in speed timers, foot count detectors in various place
 
 
 ## Experiments and Results
-At this point, the PIR counts the number of instances and creates a buzzer once the threshold is reached.
-I will have to incorporate a break beam sensor to reduce 
+At this point, the PIR counts the number of instances but the buzzer sounds at every point.
+I will have to incorporate a break beam sensor to make the counts recorded more accurate and make the buzzer sound only when the threshold is reached.
 
 ## Reference
 
