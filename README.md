@@ -13,7 +13,7 @@ With social distancing becoming a highly important due to the COVID pandemic, it
 
 ## Goals
 
-The goal is to record the number of occupants in a room and assess if it has reached the maximum allowed occupancy according to guidlines and sound a buzzer when someone attempts to enter the room that has already reached its limit.
+The goal is to record the number of occupants in a room and assess if it has reached the maximum allowed occupancy according to guidlines and sound a buzzer when someone attempts to enter the room that has already reached its limit. The signals from a motion semsor and a break beam sensor will be used to estimate the occupancy. Further, these numbers will be compared against the treshold to create an alert.
 
 ## Current Progress
 
