@@ -18,7 +18,9 @@ The goal is to record the number of occupants in a room and assess if it has rea
 ## Current Progress
 
 ### Highlights
-I have learned to make the response system wait for record multiple signals counts and attempt to input it back to the buzzer. I believe I will have to learn to incorporate order of signals for the validation.
+1) Wrote basic python code to record motion signals from the PIR sensor.
+2) Learned to make the response system wait for record multiple signals counts and attempt to input it back to the buzzer. 
+3) Investigated on the integration of PIR sensor signals with the Adafruit Break beam sensor to estimate occupany count.
 
 ![Code](https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/WhatsApp%20Image%202020-10-06%20at%2012.11.40%20PM.jpeg)
 
