@@ -15,6 +15,16 @@ School library and department lounges are always packed with students. However, 
 
 The ultimate goal is to record the number of people studying in the library, train a model for predicting number of occupants and develop GUI for information sharing. When students install and run our GUI, they can know not only whether there are seats available but also how many seats are available.
 
+## Current Progress
+
+### Highlights
+In particular, articulate thing(s) you have learned / solved outside of what was taught in class
+### Problems Encountered
+Articulate the problems you have encountered
+This section is of the most importance in the progress report. It not only give the TA information on what help you may need, and also encourages you to think deeper about your problems.
+### Future Plan
+Describe what you plan to do in the next two weeks
+
 ## Methodology
 
 ### Phenomena of Interest
