@@ -121,5 +121,6 @@ I will have to incorporate a break beam sensor to reduce
 ## Reference
 
 [1] https://simonprickett.dev/using-a-break-beam-sensor-with-python-and-raspberry-pi/
+
 [2] https://www.adafruit.com/product/2167
 
