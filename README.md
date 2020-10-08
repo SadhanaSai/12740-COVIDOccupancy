@@ -124,6 +124,8 @@ This sensor could be used in speed timers, foot count detectors in various place
 
 
 ## Experiments and Results
+I plan to use a room with a single point of entry as my testing field. The PIR sensor will be placed right at the entry in front of the door inside the room. When people enter or leave the room, the PIR sensor will detect the motion and will get triggered. The break beam sensor will be place across the floor to allow for the beam to be broken and the sensor to be triggered.
+The maximum occupancy is planned to be set at 4 people. 
 At this point, the PIR counts the number of instances but the buzzer sounds at every point.
 I will have to incorporate a break beam sensor to make the counts recorded more accurate and make the buzzer sound only when the threshold is reached.
 
