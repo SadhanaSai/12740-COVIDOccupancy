@@ -8,11 +8,11 @@ Video:
 
 ## Introduction
 
-This project aims to detect the occupancy a confined/ closed area to ensure that the maximum occupany of the space is not exceeded to ensure social distancing measures. There are parallel sensing systems to assess the occupancy. First, PIR sensor was used to assess movement near the door (Occupancy instance). Further, a break beam sensor is planned to be added to the sensing system. Once the maximum occupancy is reached a buzzer will be sounded when a person enters in order to avoid exeeding the allowed occupancy limit.
+This project aims to detect the occupancy a confined/ closed area to ensure that the maximum occupany of the space is not exceeded to ensure social distancing measures. There are parallel sensing systems to assess the occupancy. First, a Photosensitive Light sensor module was used to assess movement near the door (Occupancy instance). Further, a break beam sensor has been added to the sensing system to aid detection of people entering and exiting the room. Once the maximum occupancy is reached a Red LED is triggered.
 
 ## Motivation
 
-With social distancing becoming a highly important due to the COVID pandemic, it has become important to ensure that the maximum occupancy in any room or confined space is not exceeded. It is thus important to alert the occupants and the person entering incase the maximum occupancy is reached.
+With social distancing becoming a highly important due to the COVID pandemic, it has become important to ensure that the maximum occupancy in any room or confined space is not exceeded. CDC regulations require that occupancy limit of public spaces is not exceeded. It is thus important to a person attempting to enter the room incase the maximum occupancy is reached.
 
 ## Goals
 
