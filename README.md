@@ -2,7 +2,7 @@
 
 Sadhana Sainarayanan
 
-
+Video: https://vimeo.com/user106045215/review/471266004/319f2f6d8f
 ## Introduction
 
 This project aims to detect the occupancy a confined/ closed area to ensure that the maximum occupany of the space is not exceeded to ensure social distancing measures. There are parallel sensing systems to assess the occupancy. First, PIR sensor was used to assess movement near the door (Occupancy instance). Further, a break beam sensor is planned to be added to the sensing system. Once the maximum occupancy is reached a buzzer will be sounded when a person enters in order to avoid exeeding the allowed occupancy limit.
