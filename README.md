@@ -2,7 +2,7 @@
 
 Sadhana Sainarayanan
 
-Video: https://vimeo.com/user106045215/review/471266004/319f2f6d8f
+Video: 
 
 <iframe src="https://player.vimeo.com/video/471266004" width="640" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
