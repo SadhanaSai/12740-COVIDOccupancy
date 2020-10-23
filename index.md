@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Room Occupancy Detection
 
 You can use the [editor on GitHub](https://github.com/SadhanaSai/12740-COVIDOccupancy/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
