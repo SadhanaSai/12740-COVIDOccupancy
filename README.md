@@ -11,16 +11,17 @@ Video:
 This project aims to detect the occupancy a confined/ closed area to ensure that the maximum occupany of the space is not exceeded to ensure social distancing measures. There are parallel sensing systems to assess the occupancy. First, a Photosensitive Light sensor module was used to assess movement near the door (Occupancy instance). Further, a break beam sensor has been added to the sensing system to aid detection of people entering and exiting the room. Once the maximum occupancy is reached a Red LED is triggered. </p>
 
 ## Motivation
-
-With social distancing becoming a highly important due to the COVID pandemic, it has become important to ensure that the maximum occupancy in any room or confined space is not exceeded. CDC regulations require that occupancy limit of public spaces is not exceeded. It is thus important to a person attempting to enter the room incase the maximum occupancy is reached.
+<p align = "justify">
+With social distancing becoming a highly important due to the COVID pandemic, it has become important to ensure that the maximum occupancy in any room or confined space is not exceeded. CDC regulations require that occupancy limit of public spaces is not exceeded. It is thus important to a person attempting to enter the room incase the maximum occupancy is reached.</p>
 
 ## Goals
-
-The goal is to record the number of occupants in a room and assess if it has reached the maximum allowed occupancy according to guidlines and sound a buzzer when someone attempts to enter the room that has already reached its limit. The signals from a motion semsor and a break beam sensor will be used to estimate the occupancy. Further, these numbers will be compared against the treshold to create an alert.
+<p align = "justify">
+The goal is to record the number of occupants in a room and assess if it has reached the maximum allowed occupancy according to guidlines and sound a buzzer when someone attempts to enter the room that has already reached its limit. The signals from a motion semsor and a break beam sensor will be used to estimate the occupancy. Further, these numbers will be compared against the treshold to create an alert.</p>
 
 ## Current Progress
 
 ### Highlights
+
 1) Wrote basic python code to record motion signals from the PIR sensor.
 2) Learned to make the response system wait for record multiple signals counts and attempt to input it back to the buzzer. 
 3) Investigated on the integration of PIR sensor signals with the Adafruit Break beam sensor to estimate occupany count.
@@ -127,10 +128,11 @@ This sensor could be used in speed timers, foot count detectors in various place
 
 
 ## Experiments and Results
+<p align = "justify">
 I plan to use a room with a single point of entry as my testing field. The PIR sensor will be placed right at the entry in front of the door inside the room. When people enter or leave the room, the PIR sensor will detect the motion and will get triggered. The break beam sensor will be place across the floor to allow for the beam to be broken and the sensor to be triggered.
 The maximum occupancy is planned to be set at 4 people. 
 At this point, the PIR counts the number of instances but the buzzer sounds at every point.
-I will have to incorporate a break beam sensor to make the counts recorded more accurate and make the buzzer sound only when the threshold is reached.
+I will have to incorporate a break beam sensor to make the counts recorded more accurate and make the buzzer sound only when the threshold is reached.</p>
 
 ## Reference
 
