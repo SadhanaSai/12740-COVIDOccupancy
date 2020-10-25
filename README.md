@@ -103,21 +103,21 @@ Effects of external light interference are removed and thus objects at a distanc
 
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/pml.gif" ></p>
-<p align = "center">Fig5: Pulse modulated light</p>[4]
+<p align = "center">Fig5: Pulse modulated light [4]</p>
 <p align = "justify">
 The Emitter and Receiver are installed opposite each other. The receives the light produced by the emitter. </p>
 
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/bb.jpg" ></p>
-<p align = "center">Fig6: Break beam sensors working</p>[4]
+<p align = "center">Fig6: Break beam sensors working[4]</p>
 <p align = "justify">
 An object passing between the Emitter and Receiver interrupts the emitted light. This obstruction to the light is used to detect an object.</p>
 
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/egbb.gif" ></p>
-<p align = "center">Fig7: Break beam object sensing</p>[4]
+<p align = "center">Fig7: Break beam object sensing[4]</p>
 <p align = "justify">
-The main working principles are the rectilinear propagation of light and its reflective properties.</p>[4]
+The main working principles are the rectilinear propagation of light and its reflective properties.[4]</p>
 
 
 #### Sensor characteristics
@@ -141,7 +141,7 @@ Cable Length: 234mm / 9.2"
 Weight (of each half): ~3g[2][1]
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/breakbeam.jpg" width="200" height="200"></p>
-<p align = "center">Fig8: 5mm Break beam Sensor</p>[2]
+<p align = "center">Fig8: 5mm Break beam Sensor[2]</p>
 
 #### Applications
 <p align = "justify">
