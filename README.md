@@ -49,14 +49,20 @@ The goal is to record the number of occupants in a room and assess if it has rea
 
 Input voltage: 3.3V to 5V
 
+LDR module 4 PIN
+
 Output: Digital Switch I/O or Anlog Voltage (For this project Digital Switch I/O was used)
 
 Range, Sensitivity: Adjustable
 
-PCB Dimensions: 3.2 cm x 1.4 cm
+PCB Dimensions: 3.3 cm x 1.4 cm
+
+Weight: 4g
 
 Additional feature: Indicator Light on sensor
 
+<p align = "center">
+<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/LS.jpg" width="200" height="200"></p>
 
 #### Applications
 
@@ -92,8 +98,8 @@ Dimensions: 20mm x 10mm x 8mm / 0.8" x 0.4" x 0.3"
 Cable Length: 234mm / 9.2"
 
 Weight (of each half): ~3g
-
-![Code](https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/LS.jpeg)
+<p align = "center">
+<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/breakbeam.jpg" width="200" height="200"></p>
 
 #### Applications
 
