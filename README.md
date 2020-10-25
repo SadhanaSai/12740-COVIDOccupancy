@@ -21,35 +21,8 @@ The goal is to record the number of occupants in a room and assess if it has rea
 <li> Sense entry and exit of people using the digital switch input and output of the photosensitive light sensor module and the signals from the break beam sensor. </li>
 <li> Monitor the signals from the sensors and publish them ton the Openchirp platform. </li>
  <li> Calculate the nuber of occupants in the room from the signals acquired from the sensors</li>
- <li> Compare the number against the set limit for the number of occupants in the room and set off a Red LED once the limit is reached </li> </ul>
+ <li> Compare the number against the set limit for the number of occupants in the room and set off a Red LED once the limit is reached. </li> </ul>
  
-
-## Current Progress
-
-### Highlights
-
-1) Wrote basic python code to record motion signals from the PIR sensor.
-2) Learned to make the response system wait for record multiple signals counts and attempt to input it back to the buzzer. 
-3) Investigated on the integration of PIR sensor signals with the Adafruit Break beam sensor to estimate occupany count.
-
-![Code](https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/WhatsApp%20Image%202020-10-06%20at%2012.11.40%20PM.jpeg)
-
-<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/WhatsApp%20Image%202020-10-06%20at%2012.12.55%20PM.jpeg" width="300" height="400">
-
-### Problems Encountered
-1) Attempted to add a sound detection sensor, but the signals were not enough to validate occupancy or a person leaving the room. The ambient noice did not change much. This is could also be due to inability to test it in a real public space.
- 
-2) Due to the lack of experience with coding foe sensing, figuring out how to store ertain values before sounding alarm was difficult
- 
-3) PIR could be used to detect both object that are approaching and leaving. Will have to incorporate a secondary sensor to find the direction of movement.
-
-4) PIR sensor's sensitivity needs to be adjusted. Sometimes it is too sensitive and at other times it doesnt detect motion at all. Further, there is a time lag in the signal notification, hence it is difficult to give accurate counts.
-
-4) I am still waiting for my break beam sensor to be delivered. I will have to change the way the project works once the sensor arrives.
-
-### Future Plan
-1) Troubleshoot the existing code to allow buzzer to sound after the limit is reached
-2) Add a validation sensing system (potentially a break beam sensor) to confirm entry or exit from a room. The break beam will be placed at the door and the Motion sensor will be placed inside the room, right after the entrance. Thus, if the PIR signal is followed by the Break beam signal, the person has left the room, and if the Break beam sensor signal is followed by the motion sensor signal a person has entered the room. This validation method would prevent false positives.
 
 ## Methodology
 
