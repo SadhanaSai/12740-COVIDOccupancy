@@ -28,7 +28,7 @@ The goal is to record the number of occupants in a room and assess if it has rea
 
 ### Phenomena of Interest
 
-
+The light intensity near the point of entry and t
 
 #### Entry detection
 
@@ -111,10 +111,13 @@ This sensor could be used in speed timers, foot count detectors in various place
 
 ## Experiments and Results
 <p align = "justify">
-I plan to use a room with a single point of entry as my testing field. The PIR sensor will be placed right at the entry in front of the door inside the room. When people enter or leave the room, the PIR sensor will detect the motion and will get triggered. The break beam sensor will be place across the floor to allow for the beam to be broken and the sensor to be triggered.
-The maximum occupancy is planned to be set at 4 people. 
-At this point, the PIR counts the number of instances but the buzzer sounds at every point.
-I will have to incorporate a break beam sensor to make the counts recorded more accurate and make the buzzer sound only when the threshold is reached.</p>
+I had done multiple levels of testing and experimentation. First I tested the circuits and the code by using in animate objects as objects of interest that enter and leave a region. Assessed the efficiency in of the code and set the thresholds.
+ 
+I had further used the common space in my apartment which had a single point of entrance and exit as my test field. I had placed the light sensor on the door frame, and taped the break beam sensor across the floor. The maximum occupancy was set to 3 people since the area was small.
+
+With each entry the count of the number of people was set to increase by one and with each exit the number would decrease until the room is empty.
+
+I had initially tested out the set up by my self. Further, this system was tested for a couple of hours. It counted the number of people in the room based on the data and triggered the LED once the set limit was reached.</p>
 
 ## Reference
 
