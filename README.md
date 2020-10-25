@@ -91,7 +91,15 @@ Break beam sensors come under the class of Photoelectric Sensors. They use pulse
 Pulse modulated light is light that is emitted repeatedly at fixed intervals. 
 Effects of external light interference are removed and thus objects at a distance can easily be detected. The below image shows the kind of light produced by the emitter.
 
+<p align = "center">
+<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/pml.gif" ></p>
+
 The Emitter and Receiver are installed opposite each other. The receives the light produced by the emitter. An object passing between the Emitter and Receiver interrupts the emitted light. This obstruction to the light is used to detect an object.
+<p align = "center">
+<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/bb.gif" ></p>
+
+
+The main working principles are the rectilinear propagation of light and its reflective properties.
 
 
 #### Sensor characteristics
@@ -130,6 +138,42 @@ If an object moves past the Photosensitive light sensor, the light intensity dec
 ### Logic
 If the Light sensor is triggered and then the break beam sensor is triggered, a person has entered the room.
 If the Break beam sensor signal is first triggered and then the lightsensor is triggered, a person has exited the room. Using this as the base logic, a counter was created. This count was then used to trigger the LED once the maximum occupancy is reached. 
+
+<pre>
+<code>
+ if GPIO.input(LIGHT_PIN):
+                        time.sleep(1)
+                        countl = countl +1
+                        print ("LS count",countl)
+                        if countl >countb:
+                                Count = min(max(Count +1, 0),10)
+                                print (Count)
+                                time.sleep(1)
+                                pass
+                else:
+                        pass
+                if  GPIO.input(BEAM_PIN):
+                        pass
+                else:
+                        time.sleep(1)
+                        countb = countb+1
+                        print ("BB count",countb)
+                        pass
+                        if countb >countl:
+                                Count = max(Count -1, 0)
+                                print (Count)
+                                time.sleep(1)
+                                pass
+                        elif countl ==countb:
+                                Count = Count
+                                pass
+                if Count>3:
+                        print ("Don't enter")
+                        GPIO.output(18,GPIO.HIGH)
+                        time.sleep(1)
+                        pass
+ </code>
+ </pre>
 
 ## Experiments and Results
 <p align = "justify">
