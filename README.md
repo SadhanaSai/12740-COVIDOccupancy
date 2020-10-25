@@ -33,16 +33,22 @@ The light intensity near the point of entry and the IR beam state at the point o
 #### Visible light intensity
 
 The visible light spectrum is a part of the electromagnetic spectrum that can be viewd by the human eye. Wavelenghts from 380 to 700 nanometers are visible and this is called the visible light spectrum.
+<p align = "center">
+<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/Visible.png" width="400" height="100"></p>
 
 
 #### Infrared Radiation
-
+Infrared radiation is a part of the electromagnetic spectrum. In the electromagnetic radiation spectrum, it lies between 780 nm and 1 mm, above the visible red light wavelength.
+<p align = "center">
+<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/Spectrum.png"></p>
 
 ## Sensors Used
 
 ### Photosensitive Light Sensor Module
 
+
 #### Physical principles
+
 
 
 #### Static and dynamic behavior
@@ -73,8 +79,8 @@ This sensor could be used for outdoor lights, lift lobby and common staircases. 
 
 #### Signal characteristics
 
-
-### Adafruit Breakbeam sensor 
+The Photosensitive Light sensor module has to modes of outputs. One being the Digital switch I/O, and the Analog voltage output. In this case I had used the digital switch output to 
+### Breakbeam sensor 
 
 #### Physical principles
 
@@ -109,7 +115,7 @@ Weight (of each half): ~3g
 This sensor could be used in speed timers, foot count detectors in various places.
 
 #### Signal characteristics
-
+The signals output given by the break beam sensor are logical 1/0 outputs. 1 representing that the receiver received the IR beam. 0 representing that the beam was broken.
 
 
 ## Experiments and Results
@@ -129,6 +135,14 @@ With each entry the count of the number of people was set to increase by one and
 I had initially tested out the set up by my self. Further, this system was tested for a couple of hours. It counted the number of people in the room based on the data and triggered the LED once the set limit was reached.</p>
 
 ## Discussion
+<p align = "justify">
+This project was aimed at ensuring that maximum occupancy of a room is not crossed. This was done by using 2 sensors to detect the direction of motion and thus count the number of occupants in the room.</p>
+
+<p align = "justify">
+The data collected from the sensors was used to send commands to the actuator, in this case an LED. </p>
+
+<p align = "justify">
+The scope of this project is limited. There are better and more efficient ways to count the number of occupants in a room. The project allowed me to understand the principles behind the sensors used and how to use the sensors to create a primitive prototype of an occupancy estimator.</p>
 
 
 ## Reference
