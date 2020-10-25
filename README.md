@@ -34,7 +34,8 @@ The light intensity near the point of entry and the IR beam state at the point o
 <p align = "justify">
 The visible light spectrum is a part of the electromagnetic spectrum that can be viewd by the human eye. Wavelenghts from 380 to 700 nanometers are visible and this is called the visible light spectrum.
 <p align = "center">
-<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/Visible.png" width="400" height="100"></p>
+<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/Visible.png" width="400" height="100">
+ <figcaption>Fig1: Visible light spectrum</figcaption></p>
 
 
 #### Infrared Radiation
