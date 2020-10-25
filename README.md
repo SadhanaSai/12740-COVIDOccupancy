@@ -235,17 +235,14 @@ The scope of this project is limited. There are better and more efficient ways t
 
 ## Reference
 
-[1] https://simonprickett.dev/using-a-break-beam-sensor-with-python-and-raspberry-pi/
+[1] simonprickett.dev. 2020. Using A Break Beam Sensor With Python And Raspberry Pi. [online] Available at: <https://simonprickett.dev/using-a-break-beam-sensor-with-python-and-raspberry-pi/> 
 
-[2] https://www.adafruit.com/product/2167
+[2] Industries, A., 2020. IR Break Beam Sensor - 3Mm Leds. [online] Adafruit.com. Available at: <https://www.adafruit.com/product/2167> 
 
-[3] https://en.wikipedia.org/wiki/Light
+[3] En.wikipedia.org. 2020. Light. [online] Available at: <https://en.wikipedia.org/wiki/Light> 
 
-[4] http://www.ia.omron.com/support/guide/43/introduction.html
+[4] Ia.omron.com. 2020. Overview Of Photoelectric Sensors | OMRON Industrial Automation. [online] Available at: <http://www.ia.omron.com/support/guide/43/introduction.html> 
 
-[5]  https://www.utmel.com/blog/categories/resistor/photoresistor-basics-types-principles-and-applications
+[5]  Utmel.com. 2020. Photoresistor Basics: Types, Principles And Applications - Utmel. [online] Available at: <https://www.utmel.com/blog/categories/resistor/photoresistor-basics-types-principles-and-applications> 
 
-[6] https://robu.in/product/lm393-photosensitive-light-dependent-control-sensor-module/
-
-
-
+[6] Robu.in | Indian Online Store | RC Hobby | Robotics. 2020. Buy Photosensitive LM393 Light Sensor LDR Module At Low Price. [online] Available at: <https://robu.in/product/lm393-photosensitive-light-dependent-control-sensor-module/> 
