@@ -24,16 +24,19 @@ The goal is to record the number of occupants in a room and assess if it has rea
  <li> Compare the number against the set limit for the number of occupants in the room and set off a Red LED once the limit is reached. </li> </ul>
  
 
-## Methodology
+## Methodology 
 
 ### Phenomena of Interest
 
-The light intensity near the point of entry and t
+The light intensity near the point of entry and the IR beam state at the point of entry or exit are the phenomena of interest.
 
-#### Entry detection
+#### Visible light intensity
+
+The visible light spectrum is a part of the electromagnetic spectrum that can be viewd by the human eye. Wavelenghts from 380 to 700 nanometers are visible and this is called the visible light spectrum.
 
 
-#### Human Motion
+#### Infrared Radiation
+
 
 ## Sensors Used
 
@@ -113,6 +116,9 @@ This sensor could be used in speed timers, foot count detectors in various place
 <p align = "justify">
 I had done multiple levels of testing and experimentation. First I tested the circuits and the code by using in animate objects as objects of interest that enter and leave a region. Assessed the efficiency in of the code and set the thresholds.</p>
 
+<p align = "center">
+<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/breakbeam.jpg" width="200" height="200"></p>
+
 <p align = "justify">
 I had further used the common space in my apartment which had a single point of entrance and exit as my test field. I had placed the light sensor on the door frame, and taped the break beam sensor across the floor. The maximum occupancy was set to 3 people since the area was small.</p>
 
@@ -121,6 +127,9 @@ With each entry the count of the number of people was set to increase by one and
 
 <p align = "justify">
 I had initially tested out the set up by my self. Further, this system was tested for a couple of hours. It counted the number of people in the room based on the data and triggered the LED once the set limit was reached.</p>
+
+## Discussion
+
 
 ## Reference
 
