@@ -134,6 +134,8 @@ With each entry the count of the number of people was set to increase by one and
 <p align = "justify">
 I had initially tested out the set up by my self. Further, this system was tested for a couple of hours. It counted the number of people in the room based on the data and triggered the LED once the set limit was reached.</p>
 
+<p align = "justify">The below plots show the signals after processing, and the occupant count created from the signals received. For the 30 minute period of this experiment, the signal based counts matched the ground truth.</p>
+
 ## Discussion
 <p align = "justify">
 This project was aimed at ensuring that maximum occupancy of a room is not crossed. This was done by using 2 sensors to detect the direction of motion and thus count the number of occupants in the room.</p>
