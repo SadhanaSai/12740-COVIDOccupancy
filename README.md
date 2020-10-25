@@ -186,7 +186,7 @@ If the Break beam sensor signal is first triggered and then the lightsensor is t
 I had done multiple levels of testing and experimentation. First I tested the circuits and the code by using in animate objects as objects of interest that enter and leave a region. Assessed the efficiency in of the code and set the thresholds.</p>
 
 <p align = "center">
-<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/breakbeam.jpg" width="200" height="200"></p>
+<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/circuit.jpeg" width="250" height="400"></p>
 
 <p align = "justify">
 I had further used the common space in my apartment which had a single point of entrance and exit as my test field. I had placed the light sensor on the door frame, and taped the break beam sensor across the floor. The maximum occupancy was set to 3 people since the area was small.</p>
