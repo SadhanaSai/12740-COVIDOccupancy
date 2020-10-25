@@ -28,6 +28,8 @@ The goal is to record the number of occupants in a room and assess if it has rea
 
 ### Phenomena of Interest
 
+
+
 #### Entry detection
 
 
@@ -35,7 +37,7 @@ The goal is to record the number of occupants in a room and assess if it has rea
 
 ## Sensors Used
 
-### Passive infrared sensor (PIR Motion sensor)
+### Photosensitive Light Sensor Module
 
 #### Physical principles
 
@@ -45,23 +47,16 @@ The goal is to record the number of occupants in a room and assess if it has rea
 
 #### Sensor characteristics
 
-Working voltage: 4.5V to 20V
+Input voltage: 3.3V to 5V
 
-Output: High: 3.3V, Low: 0V
+Output: Digital Switch I/O or Anlog Voltage (For this project Digital Switch I/O was used)
 
-Detection angle: Approximately 120 degrees
+Range, Sensitivity: Adjustable
 
-Range: Adjustable, up to 7m
+PCB Dimensions: 3.2 cm x 1.4 cm
 
-Trigger modes: L unrepeatable trigger / H repeatable trigger (default)
+Additional feature: Indicator Light on sensor
 
-Dwell time: (Stay-ON time) adjustable between 5-300 Seconds. –– it can be further increased by increasing the value of the CY1-Timing capacitor on pin 4 of the IC
-
-Operating Temperature: -20 – +80 Degrees C.
-
-PCB Dimensions: 33x25mm, 14mm High not including the Lens; Lens: 11mm high, 23mmDiameter.
-
-Weight: 6g 
 
 #### Applications
 
