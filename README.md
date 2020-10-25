@@ -34,8 +34,9 @@ The light intensity near the point of entry and the IR beam state at the point o
 <p align = "justify">
 The visible light spectrum is a part of the electromagnetic spectrum that can be viewd by the human eye. Wavelenghts from 380 to 700 nanometers are visible and this is called the visible light spectrum.
 <p align = "center">
-<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/Visible.png" width="400" height="100">
- <figcaption>Fig1: Visible light spectrum</figcaption></p>
+<img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/Visible.png" width="400" height="100"></p>
+<p align = "center">Fig1: Visible light spectrum</p>
+
 
 
 #### Infrared Radiation
@@ -43,6 +44,7 @@ The visible light spectrum is a part of the electromagnetic spectrum that can be
 Infrared radiation is a part of the electromagnetic spectrum. In the electromagnetic radiation spectrum, it lies between 780 nm and 1 mm, above the visible red light wavelength.
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/Spectrum.png"></p>
+<p align = "center">Fig2: Electromagnetic spectrum</p>
 
 ## Sensors Used
 
@@ -58,6 +60,7 @@ As elaborated in Photoresistor Basics: Types, Principles and Applications: "Afte
 The below image shows the LDR.
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/ldr.jpg"></p>
+<p align = "center">Fig3: Photoresistor</p>
 
 
 #### Sensor characteristics
@@ -78,6 +81,7 @@ Additional feature: Indicator Light on sensor
 
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/LS.jpg" width="200" height="200"></p>
+<p align = "center">Fig4: Photosensitive Light Sensor Module</p>
 
 #### Applications
 <p align = "justify">
@@ -98,16 +102,19 @@ Effects of external light interference are removed and thus objects at a distanc
 
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/pml.gif" ></p>
+<p align = "center">Fig5: Pulse modulated light</p>
 <p align = "justify">
 The Emitter and Receiver are installed opposite each other. The receives the light produced by the emitter. </p>
 
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/bb.jpg" ></p>
+<p align = "center">Fig6: Break beam sensors working</p>
 <p align = "justify">
 An object passing between the Emitter and Receiver interrupts the emitted light. This obstruction to the light is used to detect an object.</p>
 
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/egbb.gif" ></p>
+<p align = "center">Fig7: Break beam object sensing</p>
 <p align = "justify">
 The main working principles are the rectilinear propagation of light and its reflective properties.</p>
 
@@ -133,6 +140,7 @@ Cable Length: 234mm / 9.2"
 Weight (of each half): ~3g
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/breakbeam.jpg" width="200" height="200"></p>
+<p align = "center">Fig8: 5mm Break beam Sensor</p>
 
 #### Applications
 <p align = "justify">
@@ -196,6 +204,7 @@ I had done multiple levels of testing and experimentation. First I tested the ci
 
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/circuit.jpeg" width="250" height="400"></p>
+<p align = "center">Fig9: Circuit</p>
 
 <p align = "justify">
 I had further used the common space in my apartment which had a single point of entrance and exit as my test field. I had placed the light sensor on the door frame, and taped the break beam sensor across the floor. The maximum occupancy was set to 3 people since the area was small.</p>
@@ -210,6 +219,7 @@ I had initially tested out the set up by my self. Further, this system was teste
 
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/results.jpg"></p>
+<p align = "center">Fig10: Results obtained over 30 minutes</p>
 
 ## Discussion
 <p align = "justify">
