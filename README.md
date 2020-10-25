@@ -21,7 +21,7 @@ The goal is to record the number of occupants in a room and assess if it has rea
 <li> Sense entry and exit of people using the digital switch input and output of the photosensitive light sensor module and the signals from the break beam sensor. </li>
 <li> Monitor the signals from the sensors and publish them ton the Openchirp platform. </li>
  <li> Calculate the nuber of occupants in the room from the signals acquired from the sensors</li>
- <li> Compare the number against the set limit for the number of occupants in the room and set off a Red LED once the limit is reached </li>
+ <li> Compare the number against the set limit for the number of occupants in the room and set off a Red LED once the limit is reached </li> </ul>
  
 
 ## Current Progress
