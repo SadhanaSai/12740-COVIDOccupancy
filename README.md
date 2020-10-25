@@ -16,7 +16,13 @@ With social distancing becoming a highly important due to the COVID pandemic, it
 
 ## Goals
 <p align = "justify">
-The goal is to record the number of occupants in a room and assess if it has reached the maximum allowed occupancy according to guidlines and sound a buzzer when someone attempts to enter the room that has already reached its limit. The signals from a motion semsor and a break beam sensor will be used to estimate the occupancy. Further, these numbers will be compared against the treshold to create an alert.</p>
+The goal is to record the number of occupants in a room and assess if it has reached the maximum allowed occupancy according to guidlines and alert with an LED light once the capacity is reached. The following points give a breakdown of the goals:</p>
+<ul>
+<li> Sense entry and exit of people using the digital switch input and output of the photosensitive light sensor module and the signals from the break beam sensor. </li>
+<li> Monitor the signals from the sensors and publish them ton the Openchirp platform. </li>
+ <li> Calculate the nuber of occupants in the room from the signals acquired from the sensors</li>
+ <li> Compare the number against the set limit for the number of occupants in the room and set off a Red LED once the limit is reached </li>
+ 
 
 ## Current Progress
 
