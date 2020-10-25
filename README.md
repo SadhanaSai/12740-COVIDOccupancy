@@ -111,12 +111,15 @@ This sensor could be used in speed timers, foot count detectors in various place
 
 ## Experiments and Results
 <p align = "justify">
-I had done multiple levels of testing and experimentation. First I tested the circuits and the code by using in animate objects as objects of interest that enter and leave a region. Assessed the efficiency in of the code and set the thresholds.
- 
-I had further used the common space in my apartment which had a single point of entrance and exit as my test field. I had placed the light sensor on the door frame, and taped the break beam sensor across the floor. The maximum occupancy was set to 3 people since the area was small.
+I had done multiple levels of testing and experimentation. First I tested the circuits and the code by using in animate objects as objects of interest that enter and leave a region. Assessed the efficiency in of the code and set the thresholds.</p>
 
-With each entry the count of the number of people was set to increase by one and with each exit the number would decrease until the room is empty.
+<p align = "justify">
+I had further used the common space in my apartment which had a single point of entrance and exit as my test field. I had placed the light sensor on the door frame, and taped the break beam sensor across the floor. The maximum occupancy was set to 3 people since the area was small.</p>
 
+<p align = "justify">
+With each entry the count of the number of people was set to increase by one and with each exit the number would decrease until the room is empty.</p>
+
+<p align = "justify">
 I had initially tested out the set up by my self. Further, this system was tested for a couple of hours. It counted the number of people in the room based on the data and triggered the LED once the set limit was reached.</p>
 
 ## Reference
