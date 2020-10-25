@@ -35,7 +35,7 @@ The light intensity near the point of entry and the IR beam state at the point o
 The visible light spectrum is a part of the electromagnetic spectrum that can be viewd by the human eye. Wavelenghts from 380 to 700 nanometers are visible and this is called the visible light spectrum.[3]
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/Visible.png" width="400" height="100"></p>
-<p align = "center">Fig1: Visible light spectrum</p>[3]
+<p align = "center">Fig1: Visible light spectrum[3]</p>
 
 
 
@@ -44,7 +44,7 @@ The visible light spectrum is a part of the electromagnetic spectrum that can be
 Infrared radiation is a part of the electromagnetic spectrum. In the electromagnetic radiation spectrum, it lies between 780 nm and 1 mm, above the visible red light wavelength.[3]
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/Spectrum.png"></p>
-<p align = "center">Fig2: Electromagnetic spectrum</p>[3]
+<p align = "center">Fig2: Electromagnetic spectrum[3]</p>
 
 ## Sensors Used
 
@@ -60,7 +60,7 @@ As elaborated in Photoresistor Basics: Types, Principles and Applications: "Afte
 The below image shows the LDR.
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/ldr.jpg"></p>
-<p align = "center">Fig3: Photoresistor</p>[5]
+<p align = "center">Fig3: Photoresistor[5]</p>
 
 
 #### Sensor characteristics
@@ -81,7 +81,7 @@ Additional feature: Indicator Light on sensor [6]
 
 <p align = "center">
 <img src="https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/LS.jpg" width="200" height="200"></p>
-<p align = "center">Fig4: Photosensitive Light Sensor Module</p>[6]
+<p align = "center">Fig4: Photosensitive Light Sensor Module[6]</p>
 
 #### Applications
 <p align = "justify">
