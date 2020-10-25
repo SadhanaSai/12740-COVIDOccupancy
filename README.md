@@ -93,6 +93,8 @@ Cable Length: 234mm / 9.2"
 
 Weight (of each half): ~3g
 
+![Code](https://github.com/SadhanaSai/12740-COVIDOccupancy/blob/main/LS.jpeg)
+
 #### Applications
 
 This sensor could be used in speed timers, foot count detectors in various places.
