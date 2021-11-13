@@ -2,9 +2,6 @@
 
 Sadhana Sainarayanan
 
-Video: 
-
-<iframe src="https://player.vimeo.com/video/471266004" width="640" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Introduction
 <p align = "justify">
